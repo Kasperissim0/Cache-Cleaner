@@ -1,2 +1,21 @@
 Sun Dec 28 14:53:59 CET 2025: Cache cleaner daemon started
 Sun Dec 28 14:56:29 CET 2025: Cache cleaner daemon started
+Sun Dec 28 15:21:15 CET 2025: Cache cleaner daemon started for file: /Library/Caches
+Sun Dec 28 15:21:15 CET 2025: Checking file: /Library/Caches
+Sun Dec 28 15:21:15 CET 2025: File '/Library/Caches' size: 320 bytes
+Sun Dec 28 15:21:15 CET 2025: Cache '/Library/Caches' is over threshold (320 > 0 bytes).
+Sun Dec 28 15:21:15 CET 2025: Clearing '/Library/Caches'...
+Sun Dec 28 15:21:45 CET 2025: Cache cleaner daemon started for file: /Library/Caches/com.apple.amsengagementd.classicdatavault
+Sun Dec 28 15:21:45 CET 2025: Checking file: /Library/Caches/com.apple.amsengagementd.classicdatavault
+Sun Dec 28 15:35:02 CET 2025: Cache cleaner daemon started
+Sun Dec 28 15:35:02 CET 2025: Checking cache directories...
+Sun Dec 28 15:35:02 CET 2025: Directory '/Library/Caches' size: 16384 bytes
+Sun Dec 28 15:35:02 CET 2025: Directory '/Users/kornienkodaniel/Library/Caches' size: 37044224 bytes
+Sun Dec 28 15:35:02 CET 2025: Directory '/Users/kornienkodaniel/Library/Application Support/Code/User/workspaceStorage' size: 5820416 bytes
+Sun Dec 28 15:35:02 CET 2025: Check complete. Next check in 300 seconds.
+Sun Dec 28 15:37:23 CET 2025: Cache cleaner daemon started
+Sun Dec 28 15:37:23 CET 2025: Checking cache directories...
+Sun Dec 28 15:37:30 CET 2025: Directory '/Library/Caches' size: 158281728 bytes
+Sun Dec 28 15:37:30 CET 2025: Directory '/Users/kornienkodaniel/Library/Caches' size: 35090432 bytes
+Sun Dec 28 15:37:30 CET 2025: Directory '/Users/kornienkodaniel/Library/Application Support/Code/User/workspaceStorage' size: 5820416 bytes
+Sun Dec 28 15:37:30 CET 2025: Check complete. Next check in 300 seconds.

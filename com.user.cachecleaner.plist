@@ -7,9 +7,7 @@
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/kornienkodaniel/Documents/1_Projects/Cache Cleaner/cache_cleaner.sh</string>
-        <string>/Users/kornienkodaniel/Documents/1_Projects/Cache Cleaner/cache_cleaner.log</string>
-        <string>1000000</string>
+        <string>/Users/kornienkodaniel/Documents/1_Projects/Cache Cleaner/Extra/Script & Spec/cache_cleaner.sh</string>
     </array>
     <key>RunAtLoad</key>
     <true/>

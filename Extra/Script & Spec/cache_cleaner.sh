@@ -4,13 +4,16 @@ set -e
 # Cache Cleaner Daemon
 SAVE_PATH="/Users/kornienkodaniel/Documents/1_Projects/Cache Cleaner"
 LOG_FILE="$SAVE_PATH/cache_cleaner.log"
+OUT_FILE="$SAVE_PATH/cache_cleaner_out.log"
+ERR_FILE="$SAVE_PATH/cache_cleaner_err.log"
 CHECK_INTERVAL=300 # Check every 5 minutes
 SIZE_THRESHOLD=500000000 # 500MB in bytes
 
 # Cache directories to monitor - ADD MORE AS NEEDED
 CACHE_DIRS=(
-    "$HOME/Library/Caches/*"
-    "$HOME/Library/Application Support/Google/Chrome/Default/Application Cache/*"
+    "/Library/Caches"
+    "$HOME/Library/Caches"
+    "$HOME/Library/Application Support/Google/Chrome/Default/Application Cache"
     "$HOME/Library/Application Support/Code/User/workspaceStorage"
     "$HOME/Library/Application Support/discord/Cache"
     "$HOME/Library/Application Support/discord/Code Cache"
@@ -20,7 +23,7 @@ CACHE_DIRS=(
 # Function to get directory size in bytes (macOS compatible)
 get_dir_size() {
     # Get size in kilobytes and multiply by 1024 for bytes
-    size_in_kb=$(du -sk "$1" | awk '{print $1}')
+    size_in_kb=$(sudo du -sk "$1" | awk '{print $1}')
     echo $(($size_in_kb * 1024))
 }
 
@@ -29,42 +32,37 @@ echo "$(date): Cache cleaner daemon started" >> "$LOG_FILE"
 while true; do
     echo "$(date): Checking cache directories..." >> "$LOG_FILE"
     
-    declare -a dirs_to_check=()
-    
-    # Collect all subdirectories from CACHE_DIRS
-    for cache_dir_pattern in "${CACHE_DIRS[@]}"; do
-        for item in $cache_dir_pattern; do
-            if [ -d "$item" ]; then
-                dirs_to_check+=("$item")
+    for dir_pattern in "${CACHE_DIRS[@]}"; do
+        if [ -d "$dir_pattern" ]; then
+            size=$(get_dir_size "$dir_pattern")
+            echo "$(date): Directory '$dir_pattern' size: $size bytes" >> "$LOG_FILE"
+            if [ "$size" -gt "$SIZE_THRESHOLD" ]; then
+                echo "$(date): Cache '$dir_pattern' is over threshold ($size > $SIZE_THRESHOLD bytes)." >> "$LOG_FILE"
+                echo "$(date): Clearing contents of '$dir_pattern'..." >> "$LOG_FILE"
+                
+                # --- Deletion is now active ---
+                sudo find "$dir_pattern" -mindepth 1 -print -delete >> "$OUT_FILE" 2>> "$ERR_FILE"
+                
+                echo "$(date): Cleared contents of '$dir_pattern'." >> "$LOG_FILE"
             fi
-        done
-    done
-
-    # Create a temporary file to store directory sizes
-    size_file=$(mktemp)
-
-    # Calculate size for each directory and store in the temp file
-    for dir in "${dirs_to_check[@]}"; do
-        size=$(get_dir_size "$dir")
-        echo "$size $dir" >> "$size_file"
-    done
-
-    # Sort directories by size (descending) and log them
-    sort -rn "$size_file" | while read -r size dir; do
-        echo "$(date): Directory '$dir' size: $size bytes" >> "$LOG_FILE"
-        if [ "$size" -gt "$SIZE_THRESHOLD" ]; then
-            echo "$(date): Cache '$dir' is over threshold ($size > $SIZE_THRESHOLD bytes)." >> "$LOG_FILE"
-            echo "$(date): Clearing '$dir'..." >> "$LOG_FILE"
-            
-            # --- Deletion is now active ---
-            rm -rf "$dir"
-            
-            echo "$(date): Cleared '$dir'." >> "$LOG_FILE"
+        else
+            for item in $dir_pattern/*; do
+                if [ -d "$item" ]; then
+                    size=$(get_dir_size "$item")
+                    echo "$(date): Directory '$item' size: $size bytes" >> "$LOG_FILE"
+                    if [ "$size" -gt "$SIZE_THRESHOLD" ]; then
+                        echo "$(date): Cache '$item' is over threshold ($size > $SIZE_THRESHOLD bytes)." >> "$LOG_FILE"
+                        echo "$(date): Clearing '$item'..." >> "$LOG_FILE"
+                        
+                        # --- Deletion is now active ---
+                        sudo rm -rfv "$item" >> "$OUT_FILE" 2>> "$ERR_FILE"
+                        
+                        echo "$(date): Cleared '$item'." >> "$LOG_FILE"
+                    fi
+                fi
+            done
         fi
     done
-
-    # Clean up the temporary file
-    rm -f "$size_file"
 
     echo "$(date): Check complete. Next check in $CHECK_INTERVAL seconds." >> "$LOG_FILE"
     sleep $CHECK_INTERVAL
