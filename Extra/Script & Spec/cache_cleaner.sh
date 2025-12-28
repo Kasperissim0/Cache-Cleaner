@@ -10,6 +10,10 @@ SIZE_THRESHOLD=500000000 # 500MB in bytes
 # Cache directories to monitor - ADD MORE AS NEEDED
 CACHE_DIRS=(
     "$HOME/Library/Caches/*"
+    "$HOME/Library/Application Support/Google/Chrome/Default/Application Cache/*"
+    "$HOME/Library/Application Support/Code/User/workspaceStorage"
+    "$HOME/Library/Application Support/discord/Cache"
+    "$HOME/Library/Application Support/discord/Code Cache"
     # Add other cache directories here if you have them
 )
 
@@ -23,24 +27,45 @@ get_dir_size() {
 echo "$(date): Cache cleaner daemon started" >> "$LOG_FILE"
 
 while true; do
-    for cache_dir in "${CACHE_DIRS[@]}"; do
-        # Use a glob to iterate through subdirectories
-        for item in $cache_dir; do
-            if [ -d "$item" ]; then # Ensure it's a directory
-                CURRENT_SIZE=$(get_dir_size "$item")
-                
-                if [ "$CURRENT_SIZE" -gt "$SIZE_THRESHOLD" ]; then
-                    echo "$(date): Cache '$item' is over threshold ($CURRENT_SIZE > $SIZE_THRESHOLD bytes)." >> "$LOG_FILE"
-                    echo "$(date): Clearing '$item'..." >> "$LOG_FILE"
-                    
-                    # --- UNCOMMENT THE LINE BELOW TO ENABLE DELETION ---
-                    # rm -rf "$item"
-                    
-                    echo "$(date): Cleared '$item' (SIMULATED)." >> "$LOG_FILE"
-                fi
+    echo "$(date): Checking cache directories..." >> "$LOG_FILE"
+    
+    declare -a dirs_to_check=()
+    
+    # Collect all subdirectories from CACHE_DIRS
+    for cache_dir_pattern in "${CACHE_DIRS[@]}"; do
+        for item in $cache_dir_pattern; do
+            if [ -d "$item" ]; then
+                dirs_to_check+=("$item")
             fi
         done
     done
-    
+
+    # Create a temporary file to store directory sizes
+    size_file=$(mktemp)
+
+    # Calculate size for each directory and store in the temp file
+    for dir in "${dirs_to_check[@]}"; do
+        size=$(get_dir_size "$dir")
+        echo "$size $dir" >> "$size_file"
+    done
+
+    # Sort directories by size (descending) and log them
+    sort -rn "$size_file" | while read -r size dir; do
+        echo "$(date): Directory '$dir' size: $size bytes" >> "$LOG_FILE"
+        if [ "$size" -gt "$SIZE_THRESHOLD" ]; then
+            echo "$(date): Cache '$dir' is over threshold ($size > $SIZE_THRESHOLD bytes)." >> "$LOG_FILE"
+            echo "$(date): Clearing '$dir'..." >> "$LOG_FILE"
+            
+            # --- Deletion is now active ---
+            rm -rf "$dir"
+            
+            echo "$(date): Cleared '$dir'." >> "$LOG_FILE"
+        fi
+    done
+
+    # Clean up the temporary file
+    rm -f "$size_file"
+
+    echo "$(date): Check complete. Next check in $CHECK_INTERVAL seconds." >> "$LOG_FILE"
     sleep $CHECK_INTERVAL
 done
