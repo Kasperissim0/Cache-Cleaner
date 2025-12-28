@@ -1,46 +1,43 @@
 #!/bin/bash
+set -e
 
-# Log file paths
-LOG_FILE="logs/cache_cleaner.log"
-OUT_FILE="logs/cache_cleaner_out.log"
-ERR_FILE="logs/cache_cleaner_err.log"
+# --- Configuration ---
+CHECK_INTERVAL=300 # Check every 5 minutes
 
-# Function to log messages
-log_message() {
-    echo "$(date +'%Y-%m-%d %H:%M:%S') - $1" >> "$LOG_FILE"
+# --- Functions ---
+get_file_size() {
+    # Get size in bytes (macOS compatible)
+    stat -f%z "$1"
 }
 
-# --- Script Start ---
-log_message "Cache Cleaner script started."
-
-# --- Cache Directories ---
-USER_CACHE_DIR="$HOME/Library/Caches"
-SYSTEM_CACHE_DIR="/Library/Caches"
-
-# --- Listing Cache Files ---
-log_message "Listing files in User Cache: $USER_CACHE_DIR"
-ls -la "$USER_CACHE_DIR" >> "$OUT_FILE" 2>> "$ERR_FILE"
-
-log_message "Listing files in System Cache: $SYSTEM_CACHE_DIR"
-ls -la "$SYSTEM_CACHE_DIR" >> "$OUT_FILE" 2>> "$ERR_FILE"
-
-# --- Deleting Cache Files ---
-read -p "Are you sure you want to delete all cache files? (y/n) " -n 1 -r
-echo
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
-    log_message "User confirmed deletion of cache files."
-
-    log_message "Deleting files from User Cache: $USER_CACHE_DIR"
-    rm -rfv "$USER_CACHE_DIR"/* >> "$OUT_FILE" 2>> "$ERR_FILE"
-
-    log_message "Deleting files from System Cache: $SYSTEM_CACHE_DIR"
-    rm -rfv "$SYSTEM_CACHE_DIR"/* >> "$OUT_FILE" 2>> "$ERR_FILE"
-
-    log_message "Cache files deleted."
-else
-    log_message "User cancelled deletion of cache files."
+# --- Main Script ---
+if [ "$#" -ne 2 ]; then
+    echo "Usage: $0 <file_to_watch> <size_threshold_in_bytes>"
+    exit 1
 fi
 
-# --- Script End ---
-log_message "Cache Cleaner script finished."
+FILE_TO_WATCH=$1
+SIZE_THRESHOLD=$2
+LOG_FILE="$(dirname "$0")/cache_cleaner.log"
+
+echo "$(date): Cache cleaner daemon started for file: $FILE_TO_WATCH" >> "$LOG_FILE"
+
+while true; do
+    echo "$(date): Checking file: $FILE_TO_WATCH" >> "$LOG_FILE"
+    
+    current_size=$(get_file_size "$FILE_TO_WATCH")
+    echo "$(date): File '$FILE_TO_WATCH' size: $current_size bytes" >> "$LOG_FILE"
+
+    if [ "$current_size" -gt "$SIZE_THRESHOLD" ]; then
+        echo "$(date): Cache '$FILE_TO_WATCH' is over threshold ($current_size > $SIZE_THRESHOLD bytes)." >> "$LOG_FILE"
+        echo "$(date): Clearing '$FILE_TO_WATCH'..." >> "$LOG_FILE"
+        
+        # --- Deletion is now active ---
+        >"$FILE_TO_WATCH"
+        
+        echo "$(date): Cleared '$FILE_TO_WATCH'." >> "$LOG_FILE"
+    fi
+
+    echo "$(date): Check complete. Next check in $CHECK_INTERVAL seconds." >> "$LOG_FILE"
+    sleep $CHECK_INTERVAL
+done
