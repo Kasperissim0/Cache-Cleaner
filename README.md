@@ -74,7 +74,7 @@ launchctl list | grep cachecleaner
 launchctl list | sort -k3 | egrep -i --color "com.user|$"
 ```
 
-## View Logs
+## View Logs (Press 'G' To Skip To The End Of The File)
 
 ### View All Logs
 ```bash
