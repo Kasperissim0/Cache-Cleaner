@@ -1,6 +1,6 @@
 # Repo Content Explanation
 ## What
-Monitors & clears cache files when they reach a certain size.
+Monitors & clears cache files/directories when they reach a certain size.
 ## Why
 To automatically manage cache size and free up disk space.
 ## How
@@ -17,16 +17,17 @@ Creates a daemon that checks cache directories every 5 minutes. If a directory e
 ## Check Working Script(s)
 ### Check If This Particular Daemon Is Active
 ######
-    launchctl list | egrep "PID\s*Status\s*Label" && launchctl list | grep --color=always cachecleaner
+    launchctl list | grep cachecleaner
 ### List All Active User Created Daemons
 ######
-    launchctl list | egrep "PID\s*Status\s*Label" && launchctl list | grep --color=always com.user
+    launchctl list | sort -k3 | egrep -i --color "com.user|$"
 ## Get Ouput
 ######
-    cat "Documents/1_Projects/Cache Cleaner/cache_cleaner.log"
+    find ~/Code/Cache\ Cleaner/ -type f -name "*cache*.log" -exec bat {} \;
 
-# The Contents Of com.user.cachecleaner.plist
+# The Contents Of com.user.cachecleaner.plist @ 2025-12-29
 ```xml
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -36,16 +37,17 @@ Creates a daemon that checks cache directories every 5 minutes. If a directory e
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/kornienkodaniel/Documents/1_Projects/Cache Cleaner/Extra/Script & Spec/cache_cleaner.sh</string>
+        <string>/Users/kasperissim0/Code/Cache Cleaner/Extra/Script & Spec/cache_cleaner.sh</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
     <key>KeepAlive</key>
     <true/>
     <key>StandardOutPath</key>
-    <string>/Users/kornienkodaniel/Documents/1_Projects/Cache Cleaner/Extra/cache_cleaner_out.log</string>
+    <string>/Users/kasperissim0/Code/Cache Cleaner/Extra/cache_cleaner_out.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/kornienkodaniel/Documents/1_Projects/Cache Cleaner/Extra/cache_cleaner_err.log</string>
+    <string>/Users/kasperissim0/Code/Cache Cleaner/Extra/cache_cleaner_err.log</string>
 </dict>
 </plist>
+
 ```

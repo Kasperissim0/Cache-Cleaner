@@ -25,3 +25,10 @@ usage: du [-Aclnx] [-H | -L | -P] [-g | -h | -k | -m] [-a | -s | -d depth] [-B b
 du: invalid option -- b
 usage: du [-Aclnx] [-H | -L | -P] [-g | -h | -k | -m] [-a | -s | -d depth] [-B blocksize] [-I mask] [-t threshold] [file ...]
 /Users/kornienkodaniel/Documents/1_Projects/Cache Cleaner/Extra/Script & Spec/cache_cleaner.sh: line 30: [: : integer expression expected
+find: /Users/kasperissim0/Library/Caches/com.apple.HomeKit: Operation not permitted
+find: /Users/kasperissim0/Library/Caches/CloudKit: Operation not permitted
+find: /Users/kasperissim0/Library/Caches/com.apple.Safari: Operation not permitted
+find: /Users/kasperissim0/Library/Caches/com.apple.containermanagerd: Operation not permitted
+find: /Users/kasperissim0/Library/Caches/FamilyCircle: Operation not permitted
+find: /Users/kasperissim0/Library/Caches/com.apple.homed: Operation not permitted
+find: /Users/kasperissim0/Library/Caches/com.apple.ap.adprivacyd: Operation not permitted
