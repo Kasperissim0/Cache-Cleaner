@@ -398,3 +398,18 @@ Mon Dec 29 16:14:12 CET 2025:    Directories checked: 6
 Mon Dec 29 16:14:12 CET 2025:    Directories cleared: 0
 Mon Dec 29 16:14:12 CET 2025:    Next check in 300s
 
+Mon Dec 29 16:19:12 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 16:19:12 CET 2025: │  ⚠ OVER THRESHOLD: 774.42MB > 750.00MB
+Mon Dec 29 16:19:12 CET 2025: │  📁 Path: /Users/kasperissim0/Library/Caches
+Mon Dec 29 16:19:19 CET 2025: ✓ Cleared 774.42MB from '/Users/kasperissim0/Library/Caches'
+Mon Dec 29 16:19:19 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 16:19:20 CET 2025: │  ✓ OK: 0B / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 16:19:20 CET 2025: │  ⊘ SKIP: Directory not found - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 16:19:20 CET 2025: │  ⊘ SKIP: Directory not found - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 16:19:20 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 16:19:20 CET 2025: └─ Check complete
+Mon Dec 29 16:19:20 CET 2025:    Directories checked: 4
+Mon Dec 29 16:19:20 CET 2025:    Directories cleared: 1
+Mon Dec 29 16:19:20 CET 2025:    Total space freed: 774.42MB
+Mon Dec 29 16:19:20 CET 2025:    Next check in 300s
+
