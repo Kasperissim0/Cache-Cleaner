@@ -413,3 +413,882 @@ Mon Dec 29 16:19:20 CET 2025:    Directories cleared: 1
 Mon Dec 29 16:19:20 CET 2025:    Total space freed: 774.42MB
 Mon Dec 29 16:19:20 CET 2025:    Next check in 300s
 
+Mon Dec 29 21:24:24 CET 2025: ════════════════════════════════════════════════
+Mon Dec 29 21:24:24 CET 2025: Cache cleaner daemon started
+Mon Dec 29 21:24:24 CET 2025: Check interval: 300s (5min)
+Mon Dec 29 21:24:24 CET 2025: Configured directories:
+Mon Dec 29 21:24:24 CET 2025:   - 750MB: /Users/kasperissim0/Library/Caches
+Mon Dec 29 21:24:24 CET 2025:   - 500MB: /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 21:24:24 CET 2025:   - 850MB: /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 21:24:24 CET 2025:   - 200MB: /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 21:24:24 CET 2025:   - 200MB: /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 21:24:24 CET 2025:   - 300MB: /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 21:24:24 CET 2025: ════════════════════════════════════════════════
+Mon Dec 29 21:24:24 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 21:24:24 CET 2025: │  ✓ OK: 216.84MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 21:24:24 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 21:24:24 CET 2025: │  ✓ OK: 0B / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 21:24:24 CET 2025: │  ✓ OK: 188.85MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 21:24:24 CET 2025: │  ✓ OK: 17.70MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 21:24:24 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 21:24:24 CET 2025: └─ Check complete
+Mon Dec 29 21:24:24 CET 2025:    Directories checked: 6
+Mon Dec 29 21:24:24 CET 2025:    Directories cleared: 0
+Mon Dec 29 21:24:24 CET 2025:    Next check in 300s
+
+Mon Dec 29 21:28:05 CET 2025: ════════════════════════════════════════════════
+Mon Dec 29 21:28:05 CET 2025: Cache cleaner daemon started
+Mon Dec 29 21:28:05 CET 2025: Check interval: 300s (5min)
+Mon Dec 29 21:28:05 CET 2025: Configured directories:
+Mon Dec 29 21:28:05 CET 2025:   - 750MB: /Users/kasperissim0/Library/Caches
+Mon Dec 29 21:28:05 CET 2025:   - 500MB: /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 21:28:05 CET 2025:   - 850MB: /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 21:28:05 CET 2025:   - 200MB: /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 21:28:05 CET 2025:   - 200MB: /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 21:28:05 CET 2025:   - 300MB: /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 21:28:05 CET 2025:   - 300MB: /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 21:28:05 CET 2025: ════════════════════════════════════════════════
+Mon Dec 29 21:28:05 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 21:28:05 CET 2025: │  ✓ OK: 216.92MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 21:28:05 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 21:28:05 CET 2025: │  ✓ OK: 0B / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 21:28:05 CET 2025: │  ✓ OK: 188.85MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 21:28:05 CET 2025: │  ✓ OK: 17.70MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 21:28:05 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 21:28:05 CET 2025: │  ⚠ OVER THRESHOLD: 454.46MB > 300.00MB
+Mon Dec 29 21:28:05 CET 2025: │  📁 Path: /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 21:28:06 CET 2025: ✓ Cleared 454.46MB from '/Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches'
+Mon Dec 29 21:28:06 CET 2025: └─ Check complete
+Mon Dec 29 21:28:06 CET 2025:    Directories checked: 7
+Mon Dec 29 21:28:06 CET 2025:    Directories cleared: 1
+Mon Dec 29 21:28:06 CET 2025:    Total space freed: 454.46MB
+Mon Dec 29 21:28:06 CET 2025:    Next check in 300s
+
+Mon Dec 29 21:30:41 CET 2025: ════════════════════════════════════════════════
+Mon Dec 29 21:30:41 CET 2025: Cache cleaner daemon started
+Mon Dec 29 21:30:41 CET 2025: Check interval: 300s (5min)
+Mon Dec 29 21:30:41 CET 2025: Configured directories:
+Mon Dec 29 21:30:41 CET 2025:   - 750MB: /Users/kasperissim0/Library/Caches
+Mon Dec 29 21:30:41 CET 2025:   - 500MB: /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 21:30:41 CET 2025:   - 850MB: /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 21:30:41 CET 2025:   - 200MB: /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 21:30:41 CET 2025:   - 200MB: /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 21:30:41 CET 2025:   - 300MB: /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 21:30:41 CET 2025:   - 300MB: /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 21:30:41 CET 2025:   - 100MB: /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 21:30:41 CET 2025: ════════════════════════════════════════════════
+Mon Dec 29 21:30:41 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 21:30:41 CET 2025: │  ✓ OK: 217.23MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 21:30:41 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 21:30:41 CET 2025: │  ✓ OK: 0B / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 21:30:41 CET 2025: │  ✓ OK: 188.85MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 21:30:41 CET 2025: │  ✓ OK: 17.70MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 21:30:41 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 21:30:41 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 21:30:41 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 21:30:41 CET 2025: └─ Check complete
+Mon Dec 29 21:30:41 CET 2025:    Directories checked: 8
+Mon Dec 29 21:30:41 CET 2025:    Directories cleared: 0
+Mon Dec 29 21:30:41 CET 2025:    Next check in 300s
+
+Mon Dec 29 21:35:41 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 21:35:41 CET 2025: │  ✓ OK: 221.49MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 21:35:41 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 21:35:41 CET 2025: │  ✓ OK: 0B / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 21:35:41 CET 2025: │  ✓ OK: 187.54MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 21:35:41 CET 2025: │  ✓ OK: 23.55MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 21:35:41 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 21:35:41 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 21:35:41 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 21:35:41 CET 2025: └─ Check complete
+Mon Dec 29 21:35:41 CET 2025:    Directories checked: 8
+Mon Dec 29 21:35:41 CET 2025:    Directories cleared: 0
+Mon Dec 29 21:35:41 CET 2025:    Next check in 300s
+
+Mon Dec 29 21:40:41 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 21:40:41 CET 2025: │  ✓ OK: 209.36MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 21:40:41 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 21:40:41 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 21:40:41 CET 2025: │  ✓ OK: 175.39MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 21:40:41 CET 2025: │  ✓ OK: 23.55MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 21:40:41 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 21:40:41 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 21:40:41 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 21:40:41 CET 2025: └─ Check complete
+Mon Dec 29 21:40:41 CET 2025:    Directories checked: 8
+Mon Dec 29 21:40:41 CET 2025:    Directories cleared: 0
+Mon Dec 29 21:40:41 CET 2025:    Next check in 300s
+
+Mon Dec 29 22:11:01 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 22:11:01 CET 2025: │  ✓ OK: 217.32MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 22:11:01 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 22:11:01 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 22:11:01 CET 2025: │  ✓ OK: 176.41MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 22:11:01 CET 2025: │  ✓ OK: 29.42MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 22:11:01 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 22:11:01 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 22:11:01 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 22:11:01 CET 2025: └─ Check complete
+Mon Dec 29 22:11:01 CET 2025:    Directories checked: 8
+Mon Dec 29 22:11:01 CET 2025:    Directories cleared: 0
+Mon Dec 29 22:11:01 CET 2025:    Next check in 300s
+
+Mon Dec 29 22:16:01 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 22:16:01 CET 2025: │  ✓ OK: 217.29MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 22:16:01 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 22:16:01 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 22:16:01 CET 2025: │  ✓ OK: 177.23MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 22:16:01 CET 2025: │  ✓ OK: 29.44MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 22:16:01 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 22:16:01 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 22:16:01 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 22:16:01 CET 2025: └─ Check complete
+Mon Dec 29 22:16:01 CET 2025:    Directories checked: 8
+Mon Dec 29 22:16:01 CET 2025:    Directories cleared: 0
+Mon Dec 29 22:16:01 CET 2025:    Next check in 300s
+
+Mon Dec 29 22:21:01 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 22:21:01 CET 2025: │  ✓ OK: 216.72MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 22:21:01 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 22:21:01 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 22:21:01 CET 2025: │  ✓ OK: 176.66MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 22:21:01 CET 2025: │  ✓ OK: 29.44MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 22:21:01 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 22:21:01 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 22:21:01 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 22:21:01 CET 2025: └─ Check complete
+Mon Dec 29 22:21:01 CET 2025:    Directories checked: 8
+Mon Dec 29 22:21:01 CET 2025:    Directories cleared: 0
+Mon Dec 29 22:21:01 CET 2025:    Next check in 300s
+
+Mon Dec 29 22:27:34 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 22:27:34 CET 2025: │  ✓ OK: 217.16MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 22:27:34 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 22:27:34 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 22:27:34 CET 2025: │  ✓ OK: 176.66MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 22:27:34 CET 2025: │  ✓ OK: 29.44MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 22:27:34 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 22:27:34 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 22:27:34 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 22:27:34 CET 2025: └─ Check complete
+Mon Dec 29 22:27:34 CET 2025:    Directories checked: 8
+Mon Dec 29 22:27:34 CET 2025:    Directories cleared: 0
+Mon Dec 29 22:27:34 CET 2025:    Next check in 300s
+
+Mon Dec 29 22:32:50 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 22:32:50 CET 2025: │  ✓ OK: 216.73MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 22:32:50 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 22:32:50 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 22:32:50 CET 2025: │  ✓ OK: 176.67MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 22:32:50 CET 2025: │  ✓ OK: 29.44MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 22:32:50 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 22:32:50 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 22:32:50 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 22:32:50 CET 2025: └─ Check complete
+Mon Dec 29 22:32:50 CET 2025:    Directories checked: 8
+Mon Dec 29 22:32:50 CET 2025:    Directories cleared: 0
+Mon Dec 29 22:32:50 CET 2025:    Next check in 300s
+
+Mon Dec 29 22:44:50 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 22:44:50 CET 2025: │  ✓ OK: 216.73MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 22:44:50 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 22:44:51 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 22:44:51 CET 2025: │  ✓ OK: 176.67MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 22:44:51 CET 2025: │  ✓ OK: 29.44MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 22:44:51 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 22:44:51 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 22:44:51 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 22:44:51 CET 2025: └─ Check complete
+Mon Dec 29 22:44:51 CET 2025:    Directories checked: 8
+Mon Dec 29 22:44:51 CET 2025:    Directories cleared: 0
+Mon Dec 29 22:44:51 CET 2025:    Next check in 300s
+
+Mon Dec 29 22:49:51 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 22:49:51 CET 2025: │  ✓ OK: 266.00MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 22:49:51 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 22:49:51 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 22:49:51 CET 2025: │  ✓ OK: 189.17MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 22:49:51 CET 2025: │  ✓ OK: 37.68MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 22:49:51 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 22:49:51 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 22:49:51 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 22:49:51 CET 2025: └─ Check complete
+Mon Dec 29 22:49:51 CET 2025:    Directories checked: 8
+Mon Dec 29 22:49:51 CET 2025:    Directories cleared: 0
+Mon Dec 29 22:49:51 CET 2025:    Next check in 300s
+
+Mon Dec 29 22:54:51 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 22:54:51 CET 2025: │  ✓ OK: 278.67MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 22:54:51 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 22:54:51 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 22:54:51 CET 2025: │  ⚠ OVER THRESHOLD: 201.19MB > 200.00MB
+Mon Dec 29 22:54:51 CET 2025: │  📁 Path: /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 22:55:01 CET 2025: ✓ Cleared 201.19MB from '/Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data'
+Mon Dec 29 22:55:01 CET 2025: │  ✓ OK: 38.35MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 22:55:02 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 22:55:02 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 22:55:02 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 22:55:02 CET 2025: └─ Check complete
+Mon Dec 29 22:55:02 CET 2025:    Directories checked: 8
+Mon Dec 29 22:55:02 CET 2025:    Directories cleared: 1
+Mon Dec 29 22:55:02 CET 2025:    Total space freed: 201.19MB
+Mon Dec 29 22:55:02 CET 2025:    Next check in 300s
+
+Mon Dec 29 23:00:02 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 23:00:02 CET 2025: │  ✓ OK: 103.37MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 23:00:02 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 23:00:02 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 23:00:02 CET 2025: │  ✓ OK: 17.74MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 23:00:02 CET 2025: │  ✓ OK: 46.41MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 23:00:02 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 23:00:02 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 23:00:02 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 23:00:02 CET 2025: └─ Check complete
+Mon Dec 29 23:00:02 CET 2025:    Directories checked: 8
+Mon Dec 29 23:00:02 CET 2025:    Directories cleared: 0
+Mon Dec 29 23:00:02 CET 2025:    Next check in 300s
+
+Mon Dec 29 23:05:02 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 23:05:02 CET 2025: │  ✓ OK: 159.51MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 23:05:02 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 23:05:02 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 23:05:02 CET 2025: │  ✓ OK: 56.94MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 23:05:02 CET 2025: │  ✓ OK: 63.35MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 23:05:02 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 23:05:02 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 23:05:02 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 23:05:02 CET 2025: └─ Check complete
+Mon Dec 29 23:05:02 CET 2025:    Directories checked: 8
+Mon Dec 29 23:05:02 CET 2025:    Directories cleared: 0
+Mon Dec 29 23:05:02 CET 2025:    Next check in 300s
+
+Mon Dec 29 23:10:02 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 23:10:02 CET 2025: │  ✓ OK: 184.19MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 23:10:02 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 23:10:02 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 23:10:02 CET 2025: │  ✓ OK: 76.38MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 23:10:02 CET 2025: │  ✓ OK: 68.58MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 23:10:02 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 23:10:02 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 23:10:02 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 23:10:02 CET 2025: └─ Check complete
+Mon Dec 29 23:10:02 CET 2025:    Directories checked: 8
+Mon Dec 29 23:10:02 CET 2025:    Directories cleared: 0
+Mon Dec 29 23:10:02 CET 2025:    Next check in 300s
+
+Mon Dec 29 23:15:02 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 23:15:02 CET 2025: │  ✓ OK: 212.79MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 23:15:02 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 23:15:02 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 23:15:02 CET 2025: │  ✓ OK: 89.89MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 23:15:02 CET 2025: │  ✓ OK: 83.55MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 23:15:02 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 23:15:03 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 23:15:03 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 23:15:03 CET 2025: └─ Check complete
+Mon Dec 29 23:15:03 CET 2025:    Directories checked: 8
+Mon Dec 29 23:15:03 CET 2025:    Directories cleared: 0
+Mon Dec 29 23:15:03 CET 2025:    Next check in 300s
+
+Mon Dec 29 23:20:03 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 23:20:03 CET 2025: │  ✓ OK: 218.01MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 23:20:03 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 23:20:03 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 23:20:03 CET 2025: │  ✓ OK: 92.31MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 23:20:03 CET 2025: │  ✓ OK: 86.36MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 23:20:03 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 23:20:03 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 23:20:03 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 23:20:03 CET 2025: └─ Check complete
+Mon Dec 29 23:20:03 CET 2025:    Directories checked: 8
+Mon Dec 29 23:20:03 CET 2025:    Directories cleared: 0
+Mon Dec 29 23:20:03 CET 2025:    Next check in 300s
+
+Mon Dec 29 23:25:03 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 23:25:03 CET 2025: │  ✓ OK: 221.07MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 23:25:03 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 23:25:03 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 23:25:03 CET 2025: │  ✓ OK: 94.58MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 23:25:03 CET 2025: │  ✓ OK: 87.14MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 23:25:03 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 23:25:03 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 23:25:03 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 23:25:03 CET 2025: └─ Check complete
+Mon Dec 29 23:25:03 CET 2025:    Directories checked: 8
+Mon Dec 29 23:25:03 CET 2025:    Directories cleared: 0
+Mon Dec 29 23:25:03 CET 2025:    Next check in 300s
+
+Mon Dec 29 23:30:03 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 23:30:03 CET 2025: │  ✓ OK: 221.08MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 23:30:03 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 23:30:03 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 23:30:03 CET 2025: │  ✓ OK: 94.59MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 23:30:03 CET 2025: │  ✓ OK: 87.15MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 23:30:03 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 23:30:03 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 23:30:03 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 23:30:03 CET 2025: └─ Check complete
+Mon Dec 29 23:30:03 CET 2025:    Directories checked: 8
+Mon Dec 29 23:30:03 CET 2025:    Directories cleared: 0
+Mon Dec 29 23:30:03 CET 2025:    Next check in 300s
+
+Mon Dec 29 23:35:03 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 23:35:04 CET 2025: │  ✓ OK: 225.21MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 23:35:04 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 23:35:04 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 23:35:04 CET 2025: │  ✓ OK: 94.59MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 23:35:04 CET 2025: │  ✓ OK: 91.23MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 23:35:04 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 23:35:04 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 23:35:04 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 23:35:04 CET 2025: └─ Check complete
+Mon Dec 29 23:35:04 CET 2025:    Directories checked: 8
+Mon Dec 29 23:35:04 CET 2025:    Directories cleared: 0
+Mon Dec 29 23:35:04 CET 2025:    Next check in 300s
+
+Mon Dec 29 23:41:29 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 23:41:29 CET 2025: │  ✓ OK: 295.85MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 23:41:29 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 23:41:29 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 23:41:29 CET 2025: │  ✓ OK: 94.60MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 23:41:29 CET 2025: │  ✓ OK: 91.23MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 23:41:29 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 23:41:29 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 23:41:29 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 23:41:29 CET 2025: └─ Check complete
+Mon Dec 29 23:41:29 CET 2025:    Directories checked: 8
+Mon Dec 29 23:41:29 CET 2025:    Directories cleared: 0
+Mon Dec 29 23:41:29 CET 2025:    Next check in 300s
+
+Mon Dec 29 23:46:29 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 23:46:30 CET 2025: │  ✓ OK: 310.26MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 23:46:30 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 23:46:30 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 23:46:30 CET 2025: │  ✓ OK: 94.94MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 23:46:30 CET 2025: │  ✓ OK: 97.34MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 23:46:30 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 23:46:30 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 23:46:30 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 23:46:30 CET 2025: └─ Check complete
+Mon Dec 29 23:46:30 CET 2025:    Directories checked: 8
+Mon Dec 29 23:46:30 CET 2025:    Directories cleared: 0
+Mon Dec 29 23:46:30 CET 2025:    Next check in 300s
+
+Mon Dec 29 23:51:30 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 23:51:30 CET 2025: │  ✓ OK: 315.40MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 23:51:30 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 23:51:30 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 23:51:30 CET 2025: │  ✓ OK: 99.67MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 23:51:30 CET 2025: │  ✓ OK: 100.75MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 23:51:30 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 23:51:30 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 23:51:30 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 23:51:30 CET 2025: └─ Check complete
+Mon Dec 29 23:51:30 CET 2025:    Directories checked: 8
+Mon Dec 29 23:51:30 CET 2025:    Directories cleared: 0
+Mon Dec 29 23:51:30 CET 2025:    Next check in 300s
+
+Mon Dec 29 23:56:30 CET 2025: ┌─ Starting cache check...
+Mon Dec 29 23:56:30 CET 2025: │  ✓ OK: 305.30MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Mon Dec 29 23:56:30 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Mon Dec 29 23:56:30 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Mon Dec 29 23:56:30 CET 2025: │  ✓ OK: 95.27MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Mon Dec 29 23:56:30 CET 2025: │  ✓ OK: 100.75MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Mon Dec 29 23:56:30 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Mon Dec 29 23:56:30 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Mon Dec 29 23:56:30 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Mon Dec 29 23:56:30 CET 2025: └─ Check complete
+Mon Dec 29 23:56:30 CET 2025:    Directories checked: 8
+Mon Dec 29 23:56:30 CET 2025:    Directories cleared: 0
+Mon Dec 29 23:56:30 CET 2025:    Next check in 300s
+
+Tue Dec 30 00:01:30 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 00:01:30 CET 2025: │  ✓ OK: 330.62MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 00:01:30 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 00:01:30 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 00:01:30 CET 2025: │  ✓ OK: 105.41MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 00:01:30 CET 2025: │  ✓ OK: 112.75MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 00:01:30 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 00:01:30 CET 2025: │  ✓ OK: 0B / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 00:01:30 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 00:01:30 CET 2025: └─ Check complete
+Tue Dec 30 00:01:30 CET 2025:    Directories checked: 8
+Tue Dec 30 00:01:30 CET 2025:    Directories cleared: 0
+Tue Dec 30 00:01:30 CET 2025:    Next check in 300s
+
+Tue Dec 30 00:06:30 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 00:06:30 CET 2025: │  ✓ OK: 328.72MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 00:06:30 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 00:06:30 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 00:06:31 CET 2025: │  ✓ OK: 105.41MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 00:06:31 CET 2025: │  ✓ OK: 112.75MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 00:06:31 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 00:06:31 CET 2025: │  ✓ OK: 40.00KB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 00:06:31 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 00:06:31 CET 2025: └─ Check complete
+Tue Dec 30 00:06:31 CET 2025:    Directories checked: 8
+Tue Dec 30 00:06:31 CET 2025:    Directories cleared: 0
+Tue Dec 30 00:06:31 CET 2025:    Next check in 300s
+
+Tue Dec 30 00:11:31 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 00:11:31 CET 2025: │  ✓ OK: 328.73MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 00:11:31 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 00:11:31 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 00:11:31 CET 2025: │  ✓ OK: 105.42MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 00:11:31 CET 2025: │  ✓ OK: 112.75MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 00:11:31 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 00:11:31 CET 2025: │  ✓ OK: 64.00KB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 00:11:31 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 00:11:31 CET 2025: └─ Check complete
+Tue Dec 30 00:11:31 CET 2025:    Directories checked: 8
+Tue Dec 30 00:11:31 CET 2025:    Directories cleared: 0
+Tue Dec 30 00:11:31 CET 2025:    Next check in 300s
+
+Tue Dec 30 00:49:05 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 00:49:05 CET 2025: │  ✓ OK: 330.29MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 00:49:05 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 00:49:05 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 00:49:05 CET 2025: │  ✓ OK: 105.42MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 00:49:05 CET 2025: │  ✓ OK: 112.75MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 00:49:05 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 00:49:05 CET 2025: │  ✓ OK: 183.97MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 00:49:05 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 00:49:05 CET 2025: └─ Check complete
+Tue Dec 30 00:49:05 CET 2025:    Directories checked: 8
+Tue Dec 30 00:49:05 CET 2025:    Directories cleared: 0
+Tue Dec 30 00:49:05 CET 2025:    Next check in 300s
+
+Tue Dec 30 02:06:59 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 02:06:59 CET 2025: │  ✓ OK: 330.17MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 02:06:59 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 02:06:59 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 02:06:59 CET 2025: │  ✓ OK: 105.43MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 02:06:59 CET 2025: │  ✓ OK: 112.75MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 02:06:59 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 02:06:59 CET 2025: │  ✓ OK: 183.97MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 02:06:59 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 02:06:59 CET 2025: └─ Check complete
+Tue Dec 30 02:06:59 CET 2025:    Directories checked: 8
+Tue Dec 30 02:06:59 CET 2025:    Directories cleared: 0
+Tue Dec 30 02:06:59 CET 2025:    Next check in 300s
+
+Tue Dec 30 02:50:06 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 02:50:06 CET 2025: │  ✓ OK: 331.44MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 02:50:06 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 02:50:06 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 02:50:06 CET 2025: │  ✓ OK: 105.43MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 02:50:06 CET 2025: │  ✓ OK: 114.31MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 02:50:06 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 02:50:06 CET 2025: │  ✓ OK: 183.97MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 02:50:06 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 02:50:06 CET 2025: └─ Check complete
+Tue Dec 30 02:50:06 CET 2025:    Directories checked: 8
+Tue Dec 30 02:50:06 CET 2025:    Directories cleared: 0
+Tue Dec 30 02:50:06 CET 2025:    Next check in 300s
+
+Tue Dec 30 04:26:49 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 04:26:49 CET 2025: │  ✓ OK: 331.58MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 04:26:49 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 04:26:49 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 04:26:49 CET 2025: │  ✓ OK: 105.44MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 04:26:49 CET 2025: │  ✓ OK: 114.31MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 04:26:49 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 04:26:50 CET 2025: │  ✓ OK: 183.97MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 04:26:50 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 04:26:50 CET 2025: └─ Check complete
+Tue Dec 30 04:26:50 CET 2025:    Directories checked: 8
+Tue Dec 30 04:26:50 CET 2025:    Directories cleared: 0
+Tue Dec 30 04:26:50 CET 2025:    Next check in 300s
+
+Tue Dec 30 05:59:43 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 05:59:43 CET 2025: │  ✓ OK: 331.49MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 05:59:43 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 05:59:43 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 05:59:43 CET 2025: │  ✓ OK: 105.44MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 05:59:43 CET 2025: │  ✓ OK: 114.31MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 05:59:43 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 05:59:43 CET 2025: │  ✓ OK: 183.97MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 05:59:43 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 05:59:43 CET 2025: └─ Check complete
+Tue Dec 30 05:59:43 CET 2025:    Directories checked: 8
+Tue Dec 30 05:59:43 CET 2025:    Directories cleared: 0
+Tue Dec 30 05:59:43 CET 2025:    Next check in 300s
+
+Tue Dec 30 06:30:31 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 06:30:31 CET 2025: │  ✓ OK: 331.62MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 06:30:31 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 06:30:31 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 06:30:31 CET 2025: │  ✓ OK: 105.45MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 06:30:31 CET 2025: │  ✓ OK: 114.31MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 06:30:32 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 06:30:32 CET 2025: │  ✓ OK: 183.97MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 06:30:32 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 06:30:32 CET 2025: └─ Check complete
+Tue Dec 30 06:30:32 CET 2025:    Directories checked: 8
+Tue Dec 30 06:30:32 CET 2025:    Directories cleared: 0
+Tue Dec 30 06:30:32 CET 2025:    Next check in 300s
+
+Tue Dec 30 08:13:32 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 08:13:32 CET 2025: │  ✓ OK: 331.45MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 08:13:32 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 08:13:32 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 08:13:32 CET 2025: │  ✓ OK: 105.45MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 08:13:32 CET 2025: │  ✓ OK: 114.31MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 08:13:32 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 08:13:32 CET 2025: │  ✓ OK: 183.97MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 08:13:32 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 08:13:32 CET 2025: └─ Check complete
+Tue Dec 30 08:13:32 CET 2025:    Directories checked: 8
+Tue Dec 30 08:13:32 CET 2025:    Directories cleared: 0
+Tue Dec 30 08:13:32 CET 2025:    Next check in 300s
+
+Tue Dec 30 09:19:04 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 09:19:04 CET 2025: │  ✓ OK: 324.58MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 09:19:04 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 09:19:04 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 09:19:04 CET 2025: │  ✓ OK: 105.46MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 09:19:04 CET 2025: │  ✓ OK: 115.09MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 09:19:04 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 09:19:04 CET 2025: │  ✓ OK: 183.97MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 09:19:04 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 09:19:04 CET 2025: └─ Check complete
+Tue Dec 30 09:19:04 CET 2025:    Directories checked: 8
+Tue Dec 30 09:19:04 CET 2025:    Directories cleared: 0
+Tue Dec 30 09:19:04 CET 2025:    Next check in 300s
+
+Tue Dec 30 09:33:04 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 09:33:05 CET 2025: │  ✓ OK: 335.39MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 09:33:05 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 09:33:05 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 09:33:05 CET 2025: │  ✓ OK: 105.46MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 09:33:05 CET 2025: │  ✓ OK: 115.09MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 09:33:05 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 09:33:05 CET 2025: │  ✓ OK: 183.97MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 09:33:05 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 09:33:05 CET 2025: └─ Check complete
+Tue Dec 30 09:33:05 CET 2025:    Directories checked: 8
+Tue Dec 30 09:33:05 CET 2025:    Directories cleared: 0
+Tue Dec 30 09:33:05 CET 2025:    Next check in 300s
+
+Tue Dec 30 09:49:21 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 09:49:21 CET 2025: │  ✓ OK: 334.52MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 09:49:21 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 09:49:21 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 09:49:21 CET 2025: │  ✓ OK: 105.47MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 09:49:21 CET 2025: │  ✓ OK: 115.09MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 09:49:21 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 09:49:21 CET 2025: │  ✓ OK: 183.97MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 09:49:21 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 09:49:21 CET 2025: └─ Check complete
+Tue Dec 30 09:49:21 CET 2025:    Directories checked: 8
+Tue Dec 30 09:49:21 CET 2025:    Directories cleared: 0
+Tue Dec 30 09:49:21 CET 2025:    Next check in 300s
+
+Tue Dec 30 09:58:41 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 09:58:41 CET 2025: │  ✓ OK: 366.05MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 09:58:41 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 09:58:41 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 09:58:41 CET 2025: │  ✓ OK: 116.19MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 09:58:41 CET 2025: │  ✓ OK: 116.64MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 09:58:41 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 09:58:41 CET 2025: │  ✓ OK: 183.97MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 09:58:41 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 09:58:41 CET 2025: └─ Check complete
+Tue Dec 30 09:58:41 CET 2025:    Directories checked: 8
+Tue Dec 30 09:58:41 CET 2025:    Directories cleared: 0
+Tue Dec 30 09:58:41 CET 2025:    Next check in 300s
+
+Tue Dec 30 10:03:41 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 10:03:41 CET 2025: │  ✓ OK: 374.82MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 10:03:41 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 10:03:41 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 10:03:41 CET 2025: │  ✓ OK: 116.29MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 10:03:42 CET 2025: │  ✓ OK: 124.92MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 10:03:42 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 10:03:42 CET 2025: │  ✓ OK: 183.97MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 10:03:42 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 10:03:42 CET 2025: └─ Check complete
+Tue Dec 30 10:03:42 CET 2025:    Directories checked: 8
+Tue Dec 30 10:03:42 CET 2025:    Directories cleared: 0
+Tue Dec 30 10:03:42 CET 2025:    Next check in 300s
+
+Tue Dec 30 10:08:42 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 10:08:42 CET 2025: │  ✓ OK: 383.25MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 10:08:42 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 10:08:42 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 10:08:42 CET 2025: │  ✓ OK: 121.44MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 10:08:42 CET 2025: │  ✓ OK: 127.76MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 10:08:42 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 10:08:42 CET 2025: │  ✓ OK: 183.97MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 10:08:42 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 10:08:42 CET 2025: └─ Check complete
+Tue Dec 30 10:08:42 CET 2025:    Directories checked: 8
+Tue Dec 30 10:08:42 CET 2025:    Directories cleared: 0
+Tue Dec 30 10:08:42 CET 2025:    Next check in 300s
+
+Tue Dec 30 10:13:42 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 10:13:42 CET 2025: │  ✓ OK: 386.83MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 10:13:42 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 10:13:42 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 10:13:42 CET 2025: │  ✓ OK: 123.14MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 10:13:42 CET 2025: │  ✓ OK: 129.36MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 10:13:42 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 10:13:42 CET 2025: │  ✓ OK: 183.97MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 10:13:42 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 10:13:42 CET 2025: └─ Check complete
+Tue Dec 30 10:13:42 CET 2025:    Directories checked: 8
+Tue Dec 30 10:13:42 CET 2025:    Directories cleared: 0
+Tue Dec 30 10:13:42 CET 2025:    Next check in 300s
+
+Tue Dec 30 10:18:42 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 10:18:42 CET 2025: │  ✓ OK: 389.67MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 10:18:42 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 10:18:42 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 10:18:42 CET 2025: │  ✓ OK: 123.53MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 10:18:42 CET 2025: │  ✓ OK: 131.28MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 10:18:42 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 10:18:42 CET 2025: │  ✓ OK: 183.97MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 10:18:42 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 10:18:42 CET 2025: └─ Check complete
+Tue Dec 30 10:18:42 CET 2025:    Directories checked: 8
+Tue Dec 30 10:18:42 CET 2025:    Directories cleared: 0
+Tue Dec 30 10:18:42 CET 2025:    Next check in 300s
+
+Tue Dec 30 10:23:42 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 10:23:42 CET 2025: │  ✓ OK: 389.17MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 10:23:42 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 10:23:42 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 10:23:43 CET 2025: │  ✓ OK: 123.54MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 10:23:43 CET 2025: │  ✓ OK: 131.28MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 10:23:43 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 10:23:43 CET 2025: │  ✓ OK: 183.97MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 10:23:43 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 10:23:43 CET 2025: └─ Check complete
+Tue Dec 30 10:23:43 CET 2025:    Directories checked: 8
+Tue Dec 30 10:23:43 CET 2025:    Directories cleared: 0
+Tue Dec 30 10:23:43 CET 2025:    Next check in 300s
+
+Tue Dec 30 10:28:43 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 10:28:43 CET 2025: │  ✓ OK: 389.97MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 10:28:43 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 10:28:43 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 10:28:43 CET 2025: │  ✓ OK: 124.08MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 10:28:43 CET 2025: │  ✓ OK: 131.53MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 10:28:43 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 10:28:43 CET 2025: │  ✓ OK: 183.97MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 10:28:43 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 10:28:43 CET 2025: └─ Check complete
+Tue Dec 30 10:28:43 CET 2025:    Directories checked: 8
+Tue Dec 30 10:28:43 CET 2025:    Directories cleared: 0
+Tue Dec 30 10:28:43 CET 2025:    Next check in 300s
+
+Tue Dec 30 10:34:43 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 10:34:43 CET 2025: │  ✓ OK: 390.83MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 10:34:43 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 10:34:43 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 10:34:43 CET 2025: │  ✓ OK: 124.27MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 10:34:43 CET 2025: │  ✓ OK: 131.57MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 10:34:43 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 10:34:43 CET 2025: │  ✓ OK: 186.10MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 10:34:43 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 10:34:43 CET 2025: └─ Check complete
+Tue Dec 30 10:34:43 CET 2025:    Directories checked: 8
+Tue Dec 30 10:34:43 CET 2025:    Directories cleared: 0
+Tue Dec 30 10:34:43 CET 2025:    Next check in 300s
+
+Tue Dec 30 11:06:08 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 11:06:08 CET 2025: │  ✓ OK: 390.90MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 11:06:08 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 11:06:08 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 11:06:08 CET 2025: │  ✓ OK: 124.27MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 11:06:08 CET 2025: │  ✓ OK: 131.57MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 11:06:08 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 11:06:08 CET 2025: │  ✓ OK: 186.10MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 11:06:08 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 11:06:08 CET 2025: └─ Check complete
+Tue Dec 30 11:06:08 CET 2025:    Directories checked: 8
+Tue Dec 30 11:06:08 CET 2025:    Directories cleared: 0
+Tue Dec 30 11:06:08 CET 2025:    Next check in 300s
+
+Tue Dec 30 11:16:43 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 11:16:43 CET 2025: │  ✓ OK: 392.16MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 11:16:43 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 11:16:43 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 11:16:43 CET 2025: │  ✓ OK: 124.28MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 11:16:43 CET 2025: │  ✓ OK: 132.35MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 11:16:43 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 11:16:43 CET 2025: │  ✓ OK: 186.10MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 11:16:43 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 11:16:43 CET 2025: └─ Check complete
+Tue Dec 30 11:16:43 CET 2025:    Directories checked: 8
+Tue Dec 30 11:16:43 CET 2025:    Directories cleared: 0
+Tue Dec 30 11:16:43 CET 2025:    Next check in 300s
+
+Tue Dec 30 11:21:43 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 11:21:43 CET 2025: │  ✓ OK: 392.38MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 11:21:43 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 11:21:43 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 11:21:43 CET 2025: │  ✓ OK: 124.50MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 11:21:43 CET 2025: │  ✓ OK: 132.36MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 11:21:43 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 11:21:43 CET 2025: │  ✓ OK: 186.10MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 11:21:43 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 11:21:43 CET 2025: └─ Check complete
+Tue Dec 30 11:21:43 CET 2025:    Directories checked: 8
+Tue Dec 30 11:21:43 CET 2025:    Directories cleared: 0
+Tue Dec 30 11:21:43 CET 2025:    Next check in 300s
+
+Tue Dec 30 11:26:43 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 11:26:43 CET 2025: │  ✓ OK: 415.48MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 11:26:43 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 11:26:43 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 11:26:43 CET 2025: │  ✓ OK: 129.05MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 11:26:43 CET 2025: │  ✓ OK: 149.31MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 11:26:43 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 11:26:44 CET 2025: │  ✓ OK: 186.10MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 11:26:44 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 11:26:44 CET 2025: └─ Check complete
+Tue Dec 30 11:26:44 CET 2025:    Directories checked: 8
+Tue Dec 30 11:26:44 CET 2025:    Directories cleared: 0
+Tue Dec 30 11:26:44 CET 2025:    Next check in 300s
+
+Tue Dec 30 11:31:44 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 11:31:44 CET 2025: │  ✓ OK: 415.48MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 11:31:44 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 11:31:44 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 11:31:44 CET 2025: │  ✓ OK: 129.06MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 11:31:44 CET 2025: │  ✓ OK: 149.31MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 11:31:44 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 11:31:44 CET 2025: │  ✓ OK: 186.10MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 11:31:44 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 11:31:44 CET 2025: └─ Check complete
+Tue Dec 30 11:31:44 CET 2025:    Directories checked: 8
+Tue Dec 30 11:31:44 CET 2025:    Directories cleared: 0
+Tue Dec 30 11:31:44 CET 2025:    Next check in 300s
+
+Tue Dec 30 11:36:44 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 11:36:44 CET 2025: │  ✓ OK: 416.76MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 11:36:44 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 11:36:44 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 11:36:44 CET 2025: │  ✓ OK: 129.07MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 11:36:44 CET 2025: │  ✓ OK: 149.31MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 11:36:44 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 11:36:44 CET 2025: │  ✓ OK: 186.10MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 11:36:44 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 11:36:44 CET 2025: └─ Check complete
+Tue Dec 30 11:36:44 CET 2025:    Directories checked: 8
+Tue Dec 30 11:36:44 CET 2025:    Directories cleared: 0
+Tue Dec 30 11:36:44 CET 2025:    Next check in 300s
+
+Tue Dec 30 11:41:44 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 11:41:44 CET 2025: │  ✓ OK: 416.89MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 11:41:44 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 11:41:44 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 11:41:45 CET 2025: │  ✓ OK: 129.07MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 11:41:45 CET 2025: │  ✓ OK: 149.31MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 11:41:45 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 11:41:45 CET 2025: │  ✓ OK: 186.10MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 11:41:45 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 11:41:45 CET 2025: └─ Check complete
+Tue Dec 30 11:41:45 CET 2025:    Directories checked: 8
+Tue Dec 30 11:41:45 CET 2025:    Directories cleared: 0
+Tue Dec 30 11:41:45 CET 2025:    Next check in 300s
+
+Tue Dec 30 11:46:45 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 11:46:45 CET 2025: │  ✓ OK: 417.14MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 11:46:45 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 11:46:45 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 11:46:45 CET 2025: │  ✓ OK: 129.08MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 11:46:45 CET 2025: │  ✓ OK: 149.31MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 11:46:45 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 11:46:45 CET 2025: │  ✓ OK: 186.10MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 11:46:45 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 11:46:45 CET 2025: └─ Check complete
+Tue Dec 30 11:46:45 CET 2025:    Directories checked: 8
+Tue Dec 30 11:46:45 CET 2025:    Directories cleared: 0
+Tue Dec 30 11:46:45 CET 2025:    Next check in 300s
+
+Tue Dec 30 12:07:50 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 12:07:50 CET 2025: │  ✓ OK: 417.31MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 12:07:50 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 12:07:50 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 12:07:50 CET 2025: │  ✓ OK: 129.11MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 12:07:50 CET 2025: │  ✓ OK: 149.31MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 12:07:50 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 12:07:50 CET 2025: │  ✓ OK: 186.10MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 12:07:50 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 12:07:50 CET 2025: └─ Check complete
+Tue Dec 30 12:07:50 CET 2025:    Directories checked: 8
+Tue Dec 30 12:07:50 CET 2025:    Directories cleared: 0
+Tue Dec 30 12:07:50 CET 2025:    Next check in 300s
+
+Tue Dec 30 12:16:58 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 12:16:58 CET 2025: │  ✓ OK: 417.40MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 12:16:58 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 12:16:58 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 12:16:58 CET 2025: │  ✓ OK: 129.12MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 12:16:58 CET 2025: │  ✓ OK: 149.31MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 12:16:58 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 12:16:58 CET 2025: │  ✓ OK: 186.10MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 12:16:58 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 12:16:58 CET 2025: └─ Check complete
+Tue Dec 30 12:16:58 CET 2025:    Directories checked: 8
+Tue Dec 30 12:16:58 CET 2025:    Directories cleared: 0
+Tue Dec 30 12:16:58 CET 2025:    Next check in 300s
+
+Tue Dec 30 13:00:44 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 13:00:44 CET 2025: │  ✓ OK: 417.55MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 13:00:44 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 13:00:44 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 13:00:44 CET 2025: │  ✓ OK: 129.12MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 13:00:44 CET 2025: │  ✓ OK: 149.31MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 13:00:44 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 13:00:44 CET 2025: │  ✓ OK: 186.10MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 13:00:44 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 13:00:44 CET 2025: └─ Check complete
+Tue Dec 30 13:00:44 CET 2025:    Directories checked: 8
+Tue Dec 30 13:00:44 CET 2025:    Directories cleared: 0
+Tue Dec 30 13:00:44 CET 2025:    Next check in 300s
+
+Tue Dec 30 13:27:21 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 13:27:21 CET 2025: │  ✓ OK: 417.91MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 13:27:21 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 13:27:21 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 13:27:21 CET 2025: │  ✓ OK: 129.12MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 13:27:21 CET 2025: │  ✓ OK: 149.31MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 13:27:21 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 13:27:21 CET 2025: │  ✓ OK: 186.10MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 13:27:21 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 13:27:21 CET 2025: └─ Check complete
+Tue Dec 30 13:27:21 CET 2025:    Directories checked: 8
+Tue Dec 30 13:27:21 CET 2025:    Directories cleared: 0
+Tue Dec 30 13:27:21 CET 2025:    Next check in 300s
+
+Tue Dec 30 13:55:41 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 13:55:41 CET 2025: │  ✓ OK: 417.98MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 13:55:41 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 13:55:41 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 13:55:41 CET 2025: │  ✓ OK: 129.12MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 13:55:41 CET 2025: │  ✓ OK: 149.31MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 13:55:41 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 13:55:41 CET 2025: │  ✓ OK: 186.10MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 13:55:41 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 13:55:41 CET 2025: └─ Check complete
+Tue Dec 30 13:55:41 CET 2025:    Directories checked: 8
+Tue Dec 30 13:55:41 CET 2025:    Directories cleared: 0
+Tue Dec 30 13:55:41 CET 2025:    Next check in 300s
+
+Tue Dec 30 14:05:13 CET 2025: ┌─ Starting cache check...
+Tue Dec 30 14:05:13 CET 2025: │  ✓ OK: 422.71MB / 750.00MB - /Users/kasperissim0/Library/Caches
+Tue Dec 30 14:05:13 CET 2025: │  ✓ OK: 0B / 500.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Code Cache
+Tue Dec 30 14:05:13 CET 2025: │  ✓ OK: 96.00KB / 850.00MB - /Users/kasperissim0/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+Tue Dec 30 14:05:13 CET 2025: │  ✓ OK: 130.65MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+Tue Dec 30 14:05:13 CET 2025: │  ✓ OK: 150.51MB / 200.00MB - /Users/kasperissim0/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache
+Tue Dec 30 14:05:13 CET 2025: │  ✓ OK: 103.47MB / 300.00MB - /Users/kasperissim0/Library/Application Support/Code/Cache/Cache_Data
+Tue Dec 30 14:05:13 CET 2025: │  ✓ OK: 186.10MB / 300.00MB - /Users/kasperissim0/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches
+Tue Dec 30 14:05:13 CET 2025: │  ✓ OK: 83.14MB / 100.00MB - /Users/kasperissim0/Library/Application Support/obsidian/Service Worker/CacheStorage
+Tue Dec 30 14:05:13 CET 2025: └─ Check complete
+Tue Dec 30 14:05:13 CET 2025:    Directories checked: 8
+Tue Dec 30 14:05:13 CET 2025:    Directories cleared: 0
+Tue Dec 30 14:05:13 CET 2025:    Next check in 300s
+

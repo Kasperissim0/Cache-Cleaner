@@ -16,6 +16,8 @@ declare -a CACHE_CONFIGS=(
     "200|$HOME/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data"
     "200|$HOME/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache"
     "300|$HOME/Library/Application Support/Code/Cache/Cache_Data"
+    "300|$HOME/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches"
+    "100|$HOME/Library/Application Support/obsidian/Service Worker/CacheStorage"
 )
 
 # Function to convert bytes to human readable format
