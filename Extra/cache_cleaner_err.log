@@ -32,3 +32,13 @@ find: /Users/kasperissim0/Library/Caches/com.apple.containermanagerd: Operation 
 find: /Users/kasperissim0/Library/Caches/FamilyCircle: Operation not permitted
 find: /Users/kasperissim0/Library/Caches/com.apple.homed: Operation not permitted
 find: /Users/kasperissim0/Library/Caches/com.apple.ap.adprivacyd: Operation not permitted
+/Users/kasperissim0/Code/Projects/Cache Cleaner/Extra/Script & Spec/cache_cleaner.sh: line 76: /Users/kasperissim0/Code/Cache Cleaner/cache_cleaner.log: No such file or directory
+/Users/kasperissim0/Code/Projects/Cache Cleaner/Extra/Script & Spec/cache_cleaner.sh: line 76: /Users/kasperissim0/Code/Cache Cleaner/cache_cleaner.log: No such file or directory
+/Users/kasperissim0/Code/Projects/Cache Cleaner/Extra/Script & Spec/cache_cleaner.sh: line 76: /Users/kasperissim0/Code/Cache Cleaner/cache_cleaner.log: No such file or directory
+/Users/kasperissim0/Code/Projects/Cache Cleaner/Extra/Script & Spec/cache_cleaner.sh: line 76: /Users/kasperissim0/Code/Cache Cleaner/cache_cleaner.log: No such file or directory
+/Users/kasperissim0/Code/Projects/Cache Cleaner/Extra/Script & Spec/cache_cleaner.sh: line 76: /Users/kasperissim0/Code/Cache Cleaner/cache_cleaner.log: No such file or directory
+/Users/kasperissim0/Code/Projects/Cache Cleaner/Extra/Script & Spec/cache_cleaner.sh: line 76: /Users/kasperissim0/Code/Cache Cleaner/cache_cleaner.log: No such file or directory
+/Users/kasperissim0/Code/Projects/Cache Cleaner/Extra/Script & Spec/cache_cleaner.sh: line 76: /Users/kasperissim0/Code/Cache Cleaner/cache_cleaner.log: No such file or directory
+/bin/bash: /Users/kasperissim0/Code/Projects/Cache Cleaner/Extra/Script & Spec/cache_cleaner.sh: No such file or directory
+/bin/bash: /Users/kasperissim0/Code/Projects/Cache Cleaner/Extra/Script & Spec/cache_cleaner.sh: No such file or directory
+/bin/bash: /Users/kasperissim0/Code/Projects/Cache Cleaner/Extra/Script & Spec/cache_cleaner.sh: No such file or directory

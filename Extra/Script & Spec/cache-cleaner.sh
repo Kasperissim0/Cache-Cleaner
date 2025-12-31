@@ -2,7 +2,7 @@
 set -e
 
 # Cache Cleaner Daemon
-SAVE_PATH="/Users/kasperissim0/Code/Cache Cleaner"
+SAVE_PATH="/Users/kasperissim0/Code/Projects/Cache Cleaner"
 LOG_FILE="$SAVE_PATH/cache_cleaner.log"
 OUT_FILE="$SAVE_PATH/Extra/cache_cleaner_out.log"
 CHECK_INTERVAL=300 # Check every 5 minutes
@@ -74,7 +74,7 @@ clear_cache_dir() {
 }
 
 echo "$(date): ════════════════════════════════════════════════" >> "$LOG_FILE"
-echo "$(date): Cache cleaner daemon started" >> "$LOG_FILE"
+echo "$(date): Cache Cleaner daemon started" >> "$LOG_FILE"
 echo "$(date): Check interval: ${CHECK_INTERVAL}s ($(($CHECK_INTERVAL/60))min)" >> "$LOG_FILE"
 echo "$(date): Configured directories:" >> "$LOG_FILE"
 for config in "${CACHE_CONFIGS[@]}"; do
