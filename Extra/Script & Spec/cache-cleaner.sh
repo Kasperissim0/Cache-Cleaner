@@ -10,14 +10,26 @@ CHECK_INTERVAL=300 # Check every 5 minutes
 # Cache directories with their thresholds (in MB for readability)
 # Format: "threshold_mb|directory_path"
 declare -a CACHE_CONFIGS=(
-    "750|$HOME/Library/Caches"
-    "500|$HOME/Library/Application Support/obsidian/Code Cache"
-    "850|$HOME/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage"
-    "200|$HOME/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data"
-    "200|$HOME/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache"
-    "300|$HOME/Library/Application Support/Code/Cache/Cache_Data"
+    "850|$HOME/Library/Caches"
+    "400|$HOME/Library/Application Support/obsidian/Code Cache"
+    "400|$HOME/Library/Application Support/obsidian/Cache"
     "300|$HOME/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches"
+    "300|$HOME/Library/Application Support/Code/Cache/Cache_Data"
+    "200|$HOME/Library/Application Support/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage"
+    "200|$HOME/Library/Caches/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data"
+    "200|$HOME/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches"
+    "200|$HOME/Library/Caches/BraveSoftware/Brave-Browser/Default/Code Cache"
+    "200|$HOME/Library/Application Support/Code/Crashpad/completed"
+    "150|$HOME/Library/Group Containers/6N38VWS5BX.ru.keepcoder.Telegram/appstore"
+    "150|$HOME/Library/Application Support/Code/CachedExtensionVSIXs"
+    "150|$HOME/Library/HTTPStorages"
+    "150|$HOME/Library/Biome"
+    "100|$HOME/Library/Metadata/CoreSpotlight/NSFileProtectionCompleteUntilFirstUserAuthentication/index.spotlightV3"
+    "100|/Volumes/Macintosh HD/private/var/folders/g4/9b2zcttx25q2c55blvwqrf780000gn/C/clang/ModuleCache"
     "100|$HOME/Library/Application Support/obsidian/Service Worker/CacheStorage"
+    "100|$HOME/Library/Containers/com.apple.iBooksX/Data/Library/Caches"
+    "100|$HOME/Library/Caches/vscode-cpptools"
+    "100|$HOME/Library/Caches/Homebrew"
 )
 
 # Function to convert bytes to human readable format
