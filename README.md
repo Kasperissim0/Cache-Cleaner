@@ -78,39 +78,39 @@ launchctl list | sort -k3 | egrep -i --color "com.user|$"
 
 ### View All Logs
 ```bash
-find ~/Code/Cache\ Cleaner/ -type f -name "*cache*.log" -exec bat {} \;
+find ~/Code/Projects/Cache\ Cleaner/ -type f -name "*cache*.log" -exec bat {} \;
 ```
 
 ### View Main Activity Log
 ```bash
-bat ~/Code/Cache\ Cleaner/cache_cleaner.log
+bat ~/Code/Projects/Cache\ Cleaner/cache_cleaner.log
 ```
 
 ### View Detailed Deletion Log
 ```bash
-bat ~/Code/Cache\ Cleaner/Extra/cache_cleaner_out.log
+bat ~/Code/Projects/Cache\ Cleaner/Extra/cache_cleaner_out.log
 ```
 
 ### Tail Live Activity
 ```bash
-tail -f ~/Code/Cache\ Cleaner/cache_cleaner.log
+tail -f ~/Code/Projects/Cache\ Cleaner/cache_cleaner.log
 ```
 
 ### Check Most Recent Activity
 ```bash
-tail -n 50 ~/Code/Cache\ Cleaner/cache_cleaner.log
+tail -n 50 ~/Code/Projects/Cache\ Cleaner/cache_cleaner.log
 ```
 
 ## Troubleshooting
 
 ### Check Error Log
 ```bash
-bat ~/Code/Cache\ Cleaner/Extra/cache_cleaner_err.log
+bat ~/Code/Projects/Cache\ Cleaner/Extra/cache_cleaner_err.log
 ```
 
 ### Manual Test Run
 ```bash
-~/Code/Cache\ Cleaner/Extra/Script\ \&\ Spec/cache_cleaner.sh
+~/Code/Projects/Cache\ Cleaner/Extra/Script\ \&\ Spec/cache_cleaner.sh
 ```
 Press `Control + Z` to stop after testing.
 
