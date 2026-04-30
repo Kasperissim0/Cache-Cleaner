@@ -2,10 +2,25 @@
 set -e
 
 # Cache Cleaner Daemon
-SAVE_PATH="/Users/kasperissim0/Code/Projects/Cache Cleaner"
+SAVE_PATH="/Users/kasperissim0/Code/Projects/Retired/Cache Cleaner"
 LOG_FILE="$SAVE_PATH/cache_cleaner.log"
 OUT_FILE="$SAVE_PATH/Extra/cache_cleaner_out.log"
 CHECK_INTERVAL=300 # Check every 5 minutes
+MAX_LOG_SIZE_MB=10
+
+# Function to rotate logs if they exceed MAX_LOG_SIZE_MB
+rotate_logs() {
+    for log in "$LOG_FILE" "$OUT_FILE" "$SAVE_PATH/Extra/cache_cleaner_err.log"; do
+        if [ -f "$log" ]; then
+            local size_kb=$(du -k "$log" | cut -f1)
+            if [ $((size_kb / 1024)) -ge $MAX_LOG_SIZE_MB ]; then
+                echo "$(date): Log file $log reached ${MAX_LOG_SIZE_MB}MB. Rotating..." >> "$log"
+                delete "$log"
+                touch "$log"
+            fi
+        fi
+    done
+}
 
 # Cache directories with their thresholds (in MB for readability)
 # Format: "threshold_mb|directory_path"
@@ -100,6 +115,7 @@ done
 echo "$(date): ════════════════════════════════════════════════" >> "$LOG_FILE"
 
 while true; do
+    rotate_logs
     echo "$(date): ┌─ Starting cache check..." >> "$LOG_FILE"
     
     total_checked=0
